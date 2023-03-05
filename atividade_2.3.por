@@ -1,3 +1,13 @@
+// Escreva um algoritmo que receba o valor padrão de uma diária. Em
+// seguida, receba vários nomes de hóspedes e suas idades. Caso o
+// hóspede seja menor que 4 anos, ele não paga hospedagem – nesses
+// casos mostre na tela “(Nome do hóspede) possui gratuidade”; hóspedes
+// com mais de 80 anos pagam metade – mostre na tela “(Nome do
+// hóspede) paga meia”. O usuário informará hóspedes até digitar a palavra
+// “PARE”, que interrompe a entrada de dados. Ao fim, mostre a quantidade
+// de gratuidades, a quantidade de meias hospedagens e o valor total,
+// considerando todos os hóspedes informados.
+
 programa
 {
 	
