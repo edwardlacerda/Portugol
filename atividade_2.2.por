@@ -1,3 +1,8 @@
+// Monte um algoritmo em que se informa a quantidade de hóspedes e, para
+// cada hóspede, leia o número do quarto e o valor da diária. Mostre na tela
+// a mensagem “Quarto [numero]: R$ [valor]”. Ao final, mostre o total de
+// diárias. Não usar vetor ou listas.
+
 programa
 {
 	
