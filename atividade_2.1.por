@@ -1,3 +1,10 @@
+// Desenvolva um algoritmo que receba o valor de uma diária no hotel e a
+// quantidade de dias de hospedagem. Valide as informações, ou seja,
+// impeça que o usuário informe dados inválidos, de maneira que o valor da
+// diária não seja negativo e que a quantidade de dias não seja negativa
+// nem maior que 30. Em caso de informação inválida escreva na tela “Valor
+// Inválido” e solicite novo valor. Ao final de tudo escreva “Fim do programa”.
+
 programa
 {
 	
