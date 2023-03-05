@@ -1,3 +1,14 @@
+// O hotel oferece café, água e salgadinhos para cada um dos convidados
+// de um evento alocado em suas dependências. A quantidade de café, em
+// litros, é calculada como 0,2 litro para cada convidado; a quantidade de
+// água é calculada como 0,5 litro para cada convidado; são oferecidos 7
+// salgadinhos por pessoa. Faça um algoritmo que receba a quantidade de
+// convidados e valide se o número de pessoas excede 350 (a capacidade
+// máxima do salão), mostrando, nesse caso, a mensagem “quantidade de
+// convidados superior à capacidade máxima”. Caso a quantidade seja
+// válida, calcule a quantidade de água, café e salgadinhos para o evento,
+// mostrando na tela esses valores.
+
 programa
 {
 	
