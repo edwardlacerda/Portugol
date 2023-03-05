@@ -1,3 +1,9 @@
+// Expanda o algoritmo anterior para que, ao final, mostre o nome e a idade
+// do hóspede mais velho e também o nome e a idade do mais jovem.
+// Também adapte para que, ao invés de encerrar com a palavra “PARE”,
+// pergunte ao usuário se ele deseja continuar a informar os dados (“S” ou
+// “N”) e, caso digite “N”, encerre a execução.
+
 programa
 {
 	
