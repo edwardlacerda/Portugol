@@ -1,3 +1,5 @@
+// Algorítmo para realizar multiplicações
+
 programa
 {
 	
