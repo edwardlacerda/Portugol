@@ -1,0 +1,39 @@
+// PRECISA CORRIGIR O CÓDIGO E TERMINAR
+
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia hospedes [15], nome = "def"
+		caracter resposta = '0'
+		
+		
+		
+		enquanto  (resposta != '3')	
+		{
+		escreva("Digite 1 para cadastrar \nDigite 2 para Pesquisar \nDigite 3 para Sair \n")
+		leia (resposta)
+			
+		se (resposta == '1')
+		{
+			para(inteiro i=0; i < 15; i++)
+			{
+				se (hospedes[i] != "")
+				{
+					escreva ("Digite o nome do hospede")
+					hospedes[i] = nome
+				}
+			}
+		}
+		senao se (resposta == '2')
+		{
+			para (inteiro i = 0; i < 15; i++)
+			{
+				escreva ("Digite o nome que deseja pesquisar: ")
+				leia (hospedes[i])
+			}
+		}
+		}
+	}
+}
