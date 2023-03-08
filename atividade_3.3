@@ -1,37 +1,47 @@
-// PRECISA CORRIGIR O CÓDIGO E TERMINAR
-
 programa
 {
 	
 	funcao inicio()
 	{
-		cadeia hospedes [15], nome = "def"
+		cadeia hospedes [15], nome = "default"
 		caracter resposta = '0'
+		
 		
 		
 		
 		enquanto  (resposta != '3')	
 		{
-		escreva("Digite 1 para cadastrar \nDigite 2 para Pesquisar \nDigite 3 para Sair \n")
+		inteiro i=0
+		escreva("Digite 1 para CADASTRAR - Digite 2 para PESQUISAR - Digite 3 para SAIR. \n")
 		leia (resposta)
 			
 		se (resposta == '1')
 		{
-			para(inteiro i=0; i < 15; i++)
+			escreva ("Digite o nome do hospede: ")
+			leia(nome)	
+			para(i; i < 15; i++)
 			{
-				se (hospedes[i] != "")
+				se (hospedes[i] == "")
 				{
-					escreva ("Digite o nome do hospede")
 					hospedes[i] = nome
+					pare
+				}
+				se (hospedes[14] != "")
+				{
+					escreva("Máximo de cadastros atingido")
+					pare
 				}
 			}
+
 		}
-		senao se (resposta == '2')
+		se (resposta == '2')
 		{
-			para (inteiro i = 0; i < 15; i++)
+			para (i=0; i < 15; i++)
 			{
 				escreva ("Digite o nome que deseja pesquisar: ")
 				leia (hospedes[i])
+				escreva ("Hospede: ",hospedes[i], " encontrado no indice ",i,"  \n")
+				pare
 			}
 		}
 		}
